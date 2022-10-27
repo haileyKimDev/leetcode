@@ -14,34 +14,31 @@ class ListNode {
 }
 
 public class MergeTwoLinkedList2 {
-    public static ListNode mergeTwoLists(ListNode l1,
-                                         ListNode l2)
+    public static ListNode mergeTwoLists(ListNode list1,
+                                         ListNode list2)
     {
-        ListNode temp_node = new ListNode(0);
-        ListNode current_node = temp_node;
+        if(list1 == null) return list2;
+        if(list2 == null) return list1;
 
-        while(l1 != null && l2 != null){
-            if(l1.val < l2.val){
-                current_node.next =l1;
-                l1 = l1.next;
-            }else {
-                current_node.next = l2;
-                l2 = l2.next;
+        ListNode result = new ListNode();
+        ListNode temp = result;
+
+        while(list1 != null && list2 != null) {
+            if(list1.val > list2.val) {
+                temp.next = list2;
+                list2 = list2.next;
             }
-
-            current_node = current_node.next;
+            else {
+                temp.next = list1;
+                list1 = list1.next;
+            }
+            temp = temp.next;
         }
 
-        if(l1 != null){
-            current_node.next = l1;
-            l1 = l1.next;
-        }
-        if(l2 != null){
-            current_node.next = l2;
-            l2 = l2.next;
-        }
+        if(list1 == null) {temp.next = list2;}
+        else {temp.next = list1;}
 
-        return temp_node.next;
+        return result;
     }
 
     // A utility function to print linked list
