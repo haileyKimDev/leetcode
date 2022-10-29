@@ -4,7 +4,7 @@ public class MaxProfit {
         for(int i=0;i<prices.length;i++){
             //find the smallest value
             buy=Math.min(buy,prices[i]);
-            //compare the smallest and the largest 
+            //compare the smallest and the largest
             sell=Math.max(sell,prices[i]-buy);
         }
         return sell;
