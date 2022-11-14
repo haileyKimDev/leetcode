@@ -17,9 +17,9 @@ public class BackJun2231 {
     //분해합 구하는 함수
     static int function(int n) {
         int ret = n;
-        while (n != 0) {
-            ret += n % 10;
-            n /= 10;
+        while (n != 0) { // 10으로 나누었을때 몫이 0 이면 모든 자릿수 검사완
+            ret += n % 10; // 10으로 나누고 나머지 더(n%10 :n의 1의 자리)
+            n /= 10; //
         }
         return ret;
     }
