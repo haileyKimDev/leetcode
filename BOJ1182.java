@@ -16,8 +16,7 @@ class BOJ1182 {
         }
         dfs(0, 0);
         if (S == 0) System.out.println(answer - 1);
-            //S 0일때가 전체 합이 0 일때랑 겹치기 때문에 -1 을 해주어야 합니다.
-            //위의 사진에 공집합이 0이라고 볼 수 있습니다
+            // when S is o , the answer (total sum) is overlap, so it would be -1
         else  System.out.println(answer);
 
     }
@@ -27,7 +26,6 @@ class BOJ1182 {
             if (sum == S) answer++;
             return;
         }
-        //tree를 생각해서 직접 그려보면 이해하기가 쉽습니다.
         dfs(depth + 1, sum + num[depth]);
         dfs(depth + 1, sum);
     }
