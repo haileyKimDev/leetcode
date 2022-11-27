@@ -22,8 +22,8 @@ class BOJ1182 {
     }
 
     private static void dfs(int depth, int sum) {
-        if (depth == N) {
-            if (sum == S) answer++;
+        if (depth == N) { //if depth is the same with N
+            if (sum == S) answer++; // add answer
             return;
         }
         dfs(depth + 1, sum + num[depth]);
