@@ -3,7 +3,7 @@ public class ReverseBits {
         /*
         1. right shifted n & 1
         2. left shifted result OR value of no.1
-        3. loof
+        3. loof for 32 bits
          */
         public int reverseBits(int n) {
             int result = 0 ;
