@@ -7,8 +7,8 @@ public class ClimbStairs {
             int second = 2;
             for (int i = 3; i <= n; i++) {
                 int third = first + second;
-                first = second;
-                second = third;
+                first = second; //replace second to first
+                second = third; //replace third to second
             }
             return second;
         }
