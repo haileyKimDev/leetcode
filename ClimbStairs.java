@@ -10,7 +10,7 @@ public class ClimbStairs {
                 first = second; //replace second to first
                 second = third; //replace third to second
             }
-            return second;
+            return second; //last second
         }
 }
 
