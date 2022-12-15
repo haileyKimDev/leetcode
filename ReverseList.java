@@ -1,16 +1,17 @@
 public class ReverseList {
     public ListNode reverseList(ListNode head) {
-        if (head == null || head.next == null) {
+        {
+            ListNode prev = null;
+            ListNode current = head;
+            ListNode next = null;
+            while (current != null) {
+                next = current.next;
+                current.next = prev;
+                prev = current;
+                current = next;
+            }
+            head = prev;
             return head;
         }
-        ListNode cur = head;
-        head = null;
-        while (cur != null) {
-            ListNode next = cur.next;
-            cur.next = head;
-            head = cur;
-            cur = next;
-        }
-        return head;
     }
 }
