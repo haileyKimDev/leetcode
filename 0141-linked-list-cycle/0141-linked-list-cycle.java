@@ -15,7 +15,7 @@ public class Solution {
             while (head != null) { //while head is not null
                 if (!set.add(head)) { 
                     //if the set contains head already, set.add() method returns false,
-                    //so the set has contains 'head' already
+                    //so if the set has contains 'head' already, it returns true
                     return true;
                 }
                 head = head.next; //link next 
