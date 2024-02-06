@@ -5,11 +5,11 @@ class Solution {
         int pist = 0;// profit if sold today
         
         for(int i = 0; i < prices.length; i++){
-            if(prices[i] < min){
-                min = prices[i];
+            if(prices[i] < min){//more smaller then previous one
+                min = prices[i];// update our least so far
             }
-            pist = prices[i] - min;
-            if(op < pist){
+            pist = prices[i] - min;// calculating profit if sold today by, Buy - sell
+            if(op < pist){//more then our previous overall profit
                 op = pist;
             }
         }
