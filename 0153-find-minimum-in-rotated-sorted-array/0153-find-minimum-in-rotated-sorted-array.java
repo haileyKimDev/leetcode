@@ -4,11 +4,11 @@ class Solution {
     int right = nums.length - 1;
 
     while (left < right) {
-      final int m = (left + right) / 2;
-      if (nums[m] < nums[right])
-        right = m;
+      final int middle = (left + right) / 2;
+      if (nums[middle] < nums[right])
+        right = middle;
       else
-        left = m + 1;
+        left = middle + 1;
     }
 
     return nums[left];
