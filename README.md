@@ -10,6 +10,7 @@
 ## String
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/haileykim2014/leetcode/tree/master/0125-valid-palindrome) |
 | [0187-repeated-dna-sequences](https://github.com/haileykim2014/leetcode/tree/master/0187-repeated-dna-sequences) |
 ## Bit Manipulation
 |  |
@@ -27,4 +28,8 @@
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/haileykim2014/leetcode/tree/master/0187-repeated-dna-sequences) |
+## Two Pointers
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/haileykim2014/leetcode/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
