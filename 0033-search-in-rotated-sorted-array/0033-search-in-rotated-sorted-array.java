@@ -3,31 +3,16 @@ class Solution {
     int left = 0;
     int right = nums.length - 1;
 
-    while (left <= right) {
-      int mid = left + (right - left) / 2;
-
-      if (nums[mid] == target) {
-        return mid;
-      }
-
-      // Left side is sorted
-      if (nums[left] <= nums[mid]) {
-        if (nums[left] <= target && target < nums[mid]) {
-          right = mid - 1;
-        } else {
-          left = mid + 1;
+    while(left <= right){
+        if(nums[left] == target){
+            return left;
         }
-      }
-      // Right side is sorted
-      else {
-        if (nums[mid] < target && target <= nums[right]) {
-          left = mid + 1;
-        } else {
-          right = mid - 1;
+        if(nums[right] == target){
+            return right;
         }
-      }
+        left++;
+        right--;
     }
-
-    return -1; // target이 배열에 존재하지 않는 경우
+    return -1;
   }
 }
