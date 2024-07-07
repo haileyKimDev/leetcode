@@ -20,6 +20,7 @@
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/haileykim2014/leetcode/tree/master/0187-repeated-dna-sequences) |
+| [0338-counting-bits](https://github.com/haileykim2014/leetcode/tree/master/0338-counting-bits) |
 ## Sliding Window
 |  |
 | ------- |
@@ -43,6 +44,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/haileykim2014/leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0338-counting-bits](https://github.com/haileykim2014/leetcode/tree/master/0338-counting-bits) |
 ## Array
 |  |
 | ------- |
