@@ -7,6 +7,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/haileykim2014/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0036-valid-sudoku](https://github.com/haileykim2014/leetcode/tree/master/0036-valid-sudoku) |
 | [0187-repeated-dna-sequences](https://github.com/haileykim2014/leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0217-contains-duplicate](https://github.com/haileykim2014/leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/haileykim2014/leetcode/tree/master/0242-valid-anagram) |
@@ -55,6 +56,7 @@
 | [0011-container-with-most-water](https://github.com/haileykim2014/leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/haileykim2014/leetcode/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/haileykim2014/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
+| [0036-valid-sudoku](https://github.com/haileykim2014/leetcode/tree/master/0036-valid-sudoku) |
 | [0217-contains-duplicate](https://github.com/haileykim2014/leetcode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/haileykim2014/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/haileykim2014/leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -97,4 +99,8 @@
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/haileykim2014/leetcode/tree/master/0347-top-k-frequent-elements) |
+## Matrix
+|  |
+| ------- |
+| [0036-valid-sudoku](https://github.com/haileykim2014/leetcode/tree/master/0036-valid-sudoku) |
 <!---LeetCode Topics End-->
