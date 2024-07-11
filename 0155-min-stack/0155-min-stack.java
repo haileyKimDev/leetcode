@@ -1,30 +1,68 @@
+
+
+Stack
+(3 / 7)
+
+
+Prerequisites
+
+Stacks
+Data Structures & Algorithms for Beginners
+Status
+Star
+Problem   
+Difficulty   
+Video Solution
+Code
+Valid Parentheses   	
+Min Stack   	
+Evaluate Reverse Polish Notation   	
+Generate Parentheses   	
+Daily Temperatures   	
+Car Fleet   	
+Largest Rectangle In Histogram   	
+View on Github
 class MinStack {
-    int min = Integer.MAX_VALUE; // 스택의 현재 최소값을 저장하는 변수
-    Stack<Integer> stack = new Stack<Integer>(); // 정수형 스택
-    
-    public void push(int x) {
-        // 새로운 값 x가 현재 최소값 min보다 작거나 같으면,
-        // 현재 최소값을 스택에 푸시하고, min을 x로 갱신
-        if(x <= min){          
-            stack.push(min);
-            min = x;
-        }
-        stack.push(x); // 새로운 값을 스택에 푸시
+
+    private Stack<Integer> stack;
+    private Stack<Integer> minStack;
+
+    public MinStack() {
+        stack = new Stack<>();
+        minStack = new Stack<>();
+    }
+
+    public void push(int val) {
+        stack.push(val);
+
+        // The min stack may be empty, so we need to check it
+        val = Math.min(val, minStack.isEmpty() ? val : minStack.peek());
+        minStack.push(val);
     }
 
     public void pop() {
-        // 스택에서 값을 제거했을 때, 그 값이 현재 최소값 min과 같으면,
-        // 스택에서 한 번 더 값을 제거하고, 이를 새로운 최소값으로 설정
-        if(stack.pop() == min) {
-            min = stack.pop();
-        }
+        stack.pop();
+        minStack.pop();
     }
 
     public int top() {
-        return stack.peek(); // 스택의 맨 위에 있는 요소를 반환
+        return stack.peek();
     }
 
     public int getMin() {
-        return min; // 현재 스택의 최소값을 반환
+        return minStack.peek();
     }
 }
+/**
+ * Your MinStack object will be instantiated and called as such:
+ * MinStack obj = new MinStack();
+ * obj.push(val);
+ * obj.pop();
+ * int param_3 = obj.top();
+ * int param_4 = obj.getMin();
+ */
+Select Roadmap
+
+(19 / 150)
+
+
