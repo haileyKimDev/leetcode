@@ -21,6 +21,7 @@
 | [0125-valid-palindrome](https://github.com/haileykim2014/leetcode/tree/master/0125-valid-palindrome) |
 | [0187-repeated-dna-sequences](https://github.com/haileykim2014/leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0242-valid-anagram](https://github.com/haileykim2014/leetcode/tree/master/0242-valid-anagram) |
+| [0257-binary-tree-paths](https://github.com/haileykim2014/leetcode/tree/master/0257-binary-tree-paths) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -109,4 +110,17 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/haileykim2014/leetcode/tree/master/0022-generate-parentheses) |
+| [0257-binary-tree-paths](https://github.com/haileykim2014/leetcode/tree/master/0257-binary-tree-paths) |
+## Tree
+|  |
+| ------- |
+| [0257-binary-tree-paths](https://github.com/haileykim2014/leetcode/tree/master/0257-binary-tree-paths) |
+## Depth-First Search
+|  |
+| ------- |
+| [0257-binary-tree-paths](https://github.com/haileykim2014/leetcode/tree/master/0257-binary-tree-paths) |
+## Binary Tree
+|  |
+| ------- |
+| [0257-binary-tree-paths](https://github.com/haileykim2014/leetcode/tree/master/0257-binary-tree-paths) |
 <!---LeetCode Topics End-->
