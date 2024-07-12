@@ -10,9 +10,7 @@ class Solution {
                     map.put(ch, 0);
                 }
                 map.put(ch, map.get(ch) + 1);
-                
-                // IMPORTANT: maxRepeat is not the accurate number of dominant character, It is the historical maximum count 
-                // We do not care about it because unless it gets greater, it won't affect our final max window size.
+            
                 maxRepeat = Math.max(maxRepeat, map.get(ch));
 
                 if(right - left + 1 - maxRepeat > k) {
