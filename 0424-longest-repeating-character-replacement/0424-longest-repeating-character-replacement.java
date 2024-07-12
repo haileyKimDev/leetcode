@@ -1,27 +1,29 @@
-// Time Complexity :  O(n)
-// Space Complexity : O(1)
 class Solution {
     public int characterReplacement(String s, int k) {
-        // Make an array of size 26...
-        int[] arr = new int[26];
-        // Initialize largestCount, maxlen & beg pointer...
-        int largestCount = 0, beg = 0, maxlen = 0;
-        // Traverse all characters through the loop...
-        for(int end = 0; end < s.length(); end ++){
-            arr[s.charAt(end) - 'A']++;
-            // Get the largest count of a single, unique character in the current window...
-            largestCount = Math.max(largestCount, arr[s.charAt(end) - 'A']);
-            // We are allowed to have at most k replacements in the window...
-            // So, if max character frequency + distance between beg and end is greater than k...
-            // this means we have considered changing more than k charactres. So time to shrink window...
-            // Then there are more characters in the window than we can replace, and we need to shrink the window...
-            if(end - beg + 1 - largestCount > k){     // The main equation is: end - beg + 1 - largestCount...
-                arr[s.charAt(beg) - 'A']--;
-                beg ++;
-            }
-            // Get the maximum length of repeating character...
-            maxlen = Math.max(maxlen, end - beg + 1);     // end - beg + 1 = size of the current window...
+            Map<Character, Integer> map = new HashMap<>(); 
+
+        int left = 0, maxRepeat = 0, maxWindow = 0;
+
+            for(int right = 0; right < s.length(); right++) {
+                char ch = s.charAt(right);
+                if(!map.containsKey(ch)) {
+                    map.put(ch, 0);
+                }
+                map.put(ch, map.get(ch) + 1);
+                
+                // IMPORTANT: maxRepeat is not the accurate number of dominant character, It is the historical maximum count 
+                // We do not care about it because unless it gets greater, it won't affect our final max window size.
+                maxRepeat = Math.max(maxRepeat, map.get(ch));
+
+                if(right - left + 1 - maxRepeat > k) {
+                    char remove = s.charAt(left);
+                    map.put(remove, map.get(remove) - 1);
+                    left++;
+                }
+            
+            maxWindow = Math.max(maxWindow, right - left + 1);
         }
-        return maxlen;      // Return the maximum length of repeating character...
+        
+        return maxWindow;
     }
 }
