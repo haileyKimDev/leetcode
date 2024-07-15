@@ -8,6 +8,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/haileykim2014/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0036-valid-sudoku](https://github.com/haileykim2014/leetcode/tree/master/0036-valid-sudoku) |
+| [0076-minimum-window-substring](https://github.com/haileykim2014/leetcode/tree/master/0076-minimum-window-substring) |
 | [0187-repeated-dna-sequences](https://github.com/haileykim2014/leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0217-contains-duplicate](https://github.com/haileykim2014/leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/haileykim2014/leetcode/tree/master/0242-valid-anagram) |
@@ -19,6 +20,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/haileykim2014/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/haileykim2014/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/haileykim2014/leetcode/tree/master/0022-generate-parentheses) |
+| [0076-minimum-window-substring](https://github.com/haileykim2014/leetcode/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/haileykim2014/leetcode/tree/master/0125-valid-palindrome) |
 | [0187-repeated-dna-sequences](https://github.com/haileykim2014/leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0242-valid-anagram](https://github.com/haileykim2014/leetcode/tree/master/0242-valid-anagram) |
@@ -34,6 +36,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/haileykim2014/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/haileykim2014/leetcode/tree/master/0076-minimum-window-substring) |
 | [0187-repeated-dna-sequences](https://github.com/haileykim2014/leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0424-longest-repeating-character-replacement](https://github.com/haileykim2014/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 ## Rolling Hash
