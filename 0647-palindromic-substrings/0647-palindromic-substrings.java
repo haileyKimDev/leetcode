@@ -1,24 +1,22 @@
 class Solution {
     public int countSubstrings(String s) {
-        int count = 0;
-        for (int i = 0; i < s.length(); i++) {
-            // Count palindromic substrings with odd lengths (single character as center)
-            count += expandAroundCenter(s, i, i);
-            // Count palindromic substrings with even lengths (two characters as center)
-            count += expandAroundCenter(s, i, i + 1);
+        int n = s.length();
+        int ans = 0;
+        for(int i=0;i<n;i++) {
+            int even = palindromeCount(s, i, i+1);
+            int odd = palindromeCount(s, i-1, i+1);
+            ans += even + odd + 1;
         }
-        return count;
+        return ans;
     }
 
-    private int expandAroundCenter(String s, int left, int right) {
+    public int palindromeCount(String s, int left, int right) {
         int count = 0;
-        // Expand around the center while the characters on both sides are equal
-        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+        while(left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
             count++;
             left--;
             right++;
         }
         return count;
     }
-
 }
