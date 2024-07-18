@@ -55,6 +55,7 @@
 | [0015-3sum](https://github.com/haileykim2014/leetcode/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/haileykim2014/leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0125-valid-palindrome](https://github.com/haileykim2014/leetcode/tree/master/0125-valid-palindrome) |
+| [0143-reorder-list](https://github.com/haileykim2014/leetcode/tree/master/0143-reorder-list) |
 | [0647-palindromic-substrings](https://github.com/haileykim2014/leetcode/tree/master/0647-palindromic-substrings) |
 ## Dynamic Programming
 |  |
@@ -144,9 +145,11 @@
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/haileykim2014/leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0143-reorder-list](https://github.com/haileykim2014/leetcode/tree/master/0143-reorder-list) |
 ## Stack
 |  |
 | ------- |
+| [0143-reorder-list](https://github.com/haileykim2014/leetcode/tree/master/0143-reorder-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/haileykim2014/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/haileykim2014/leetcode/tree/master/0155-min-stack) |
 | [0739-daily-temperatures](https://github.com/haileykim2014/leetcode/tree/master/0739-daily-temperatures) |
@@ -164,4 +167,8 @@
 | ------- |
 | [0739-daily-temperatures](https://github.com/haileykim2014/leetcode/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/haileykim2014/leetcode/tree/master/0883-car-fleet) |
+## Recursion
+|  |
+| ------- |
+| [0143-reorder-list](https://github.com/haileykim2014/leetcode/tree/master/0143-reorder-list) |
 <!---LeetCode Topics End-->
