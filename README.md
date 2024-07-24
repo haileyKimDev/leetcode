@@ -31,6 +31,7 @@
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/haileykim2014/leetcode/tree/master/0187-repeated-dna-sequences) |
+| [0287-find-the-duplicate-number](https://github.com/haileykim2014/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/haileykim2014/leetcode/tree/master/0338-counting-bits) |
 ## Sliding Window
 |  |
@@ -56,6 +57,7 @@
 | [0019-remove-nth-node-from-end-of-list](https://github.com/haileykim2014/leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0125-valid-palindrome](https://github.com/haileykim2014/leetcode/tree/master/0125-valid-palindrome) |
 | [0143-reorder-list](https://github.com/haileykim2014/leetcode/tree/master/0143-reorder-list) |
+| [0287-find-the-duplicate-number](https://github.com/haileykim2014/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0647-palindromic-substrings](https://github.com/haileykim2014/leetcode/tree/master/0647-palindromic-substrings) |
 ## Dynamic Programming
 |  |
@@ -76,6 +78,7 @@
 | [0152-maximum-product-subarray](https://github.com/haileykim2014/leetcode/tree/master/0152-maximum-product-subarray) |
 | [0217-contains-duplicate](https://github.com/haileykim2014/leetcode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/haileykim2014/leetcode/tree/master/0238-product-of-array-except-self) |
+| [0287-find-the-duplicate-number](https://github.com/haileykim2014/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/haileykim2014/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0485-max-consecutive-ones](https://github.com/haileykim2014/leetcode/tree/master/0485-max-consecutive-ones) |
 | [0739-daily-temperatures](https://github.com/haileykim2014/leetcode/tree/master/0739-daily-temperatures) |
@@ -92,6 +95,7 @@
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/haileykim2014/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
+| [0287-find-the-duplicate-number](https://github.com/haileykim2014/leetcode/tree/master/0287-find-the-duplicate-number) |
 ## Greedy
 |  |
 | ------- |
