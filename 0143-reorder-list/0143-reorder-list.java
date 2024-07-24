@@ -13,21 +13,18 @@ class Solution {
         if (head == null || head.next == null)
             return;
         
-        // step 1. cut the list to two halves
-        // prev will be the tail of 1st half
-        // slow will be the head of 2nd half
-        ListNode prev = null, slow = head, fast = head;
+        // step 1. find the middle of the list
+        // slow will be the head of the 2nd half
+        ListNode slow = head, fast = head;
         
         while (fast != null && fast.next != null) {
-            prev = slow;
             slow = slow.next;
             fast = fast.next.next;
         }
         
-        prev.next = null;
-        
-        // step 2. reverse the 2nd half
-        ListNode l2 = reverse(slow);
+        // step 2. reverse the 2nd half starting from slow.next
+        ListNode l2 = reverse(slow.next);
+        slow.next = null;  // cut the list to two halves
         
         // step 3. merge the two halves
         merge(head, l2);
@@ -47,7 +44,7 @@ class Solution {
     }
     
     private void merge(ListNode l1, ListNode l2) {
-        while (l1 != null) {
+        while (l1 != null && l2 != null) {
             ListNode n1 = l1.next, n2 = l2.next;
             l1.next = l2;
             
