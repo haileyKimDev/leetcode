@@ -43,18 +43,17 @@ class Solution {
         return prev;
     }
     
-    private void merge(ListNode l1, ListNode l2) {
-        while (l1 != null && l2 != null) {
-            ListNode n1 = l1.next, n2 = l2.next;
-            l1.next = l2;
+    private void merge(ListNode list1, ListNode list2) {
+        while (list1 != null && list2 != null) {
+            ListNode temp1 = list1.next, temp2 = list2.next;
+            list1.next = list2;
             
-            if (n1 == null)
+            if (temp1 == null)
                 break;
                 
-            l2.next = n1;
-            l1 = n1;
-            l2 = n2;
+            list2.next = temp1;
+            list1 = temp1;
+            list2 = temp2;
         }
     }
-
 }
