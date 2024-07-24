@@ -9,7 +9,7 @@
  * }
  */
 class Solution {
-public void reorderList(ListNode head) {
+    public void reorderList(ListNode head) {
         if (head == null || head.next == null)
             return;
         
