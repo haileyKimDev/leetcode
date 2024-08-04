@@ -1,4 +1,6 @@
 class Solution {
+    //Time : O(n)
+    //Space: O(1)
     public int removeDuplicates(int[] nums) {
         int insertIndex = 1;
         for(int i = 1; i < nums.length; i++){
