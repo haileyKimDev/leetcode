@@ -1,4 +1,6 @@
 class Solution {
+    //Time : O(n)
+    //Space : O(1)
     public static void moveZeroes(int[] nums) {
         int nonZeroIndex = 0;
 
