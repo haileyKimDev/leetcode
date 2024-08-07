@@ -63,6 +63,7 @@
 | [0283-move-zeroes](https://github.com/haileykim2014/leetcode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/haileykim2014/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0647-palindromic-substrings](https://github.com/haileykim2014/leetcode/tree/master/0647-palindromic-substrings) |
+| [0941-sort-array-by-parity](https://github.com/haileykim2014/leetcode/tree/master/0941-sort-array-by-parity) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -91,6 +92,7 @@
 | [0485-max-consecutive-ones](https://github.com/haileykim2014/leetcode/tree/master/0485-max-consecutive-ones) |
 | [0739-daily-temperatures](https://github.com/haileykim2014/leetcode/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/haileykim2014/leetcode/tree/master/0883-car-fleet) |
+| [0941-sort-array-by-parity](https://github.com/haileykim2014/leetcode/tree/master/0941-sort-array-by-parity) |
 ## Sorting
 |  |
 | ------- |
@@ -99,6 +101,7 @@
 | [0242-valid-anagram](https://github.com/haileykim2014/leetcode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/haileykim2014/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0883-car-fleet](https://github.com/haileykim2014/leetcode/tree/master/0883-car-fleet) |
+| [0941-sort-array-by-parity](https://github.com/haileykim2014/leetcode/tree/master/0941-sort-array-by-parity) |
 ## Binary Search
 |  |
 | ------- |
