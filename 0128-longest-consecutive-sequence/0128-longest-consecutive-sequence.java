@@ -23,3 +23,5 @@ class Solution {
         return Math.max(longestStreak, currentStreak);
     }
 }
+//time :O(Nlogn)
+//space:  O(1)
