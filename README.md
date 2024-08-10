@@ -10,6 +10,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/haileykim2014/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0036-valid-sudoku](https://github.com/haileykim2014/leetcode/tree/master/0036-valid-sudoku) |
 | [0076-minimum-window-substring](https://github.com/haileykim2014/leetcode/tree/master/0076-minimum-window-substring) |
+| [0128-longest-consecutive-sequence](https://github.com/haileykim2014/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0187-repeated-dna-sequences](https://github.com/haileykim2014/leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0217-contains-duplicate](https://github.com/haileykim2014/leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/haileykim2014/leetcode/tree/master/0242-valid-anagram) |
@@ -82,6 +83,7 @@
 | [0027-remove-element](https://github.com/haileykim2014/leetcode/tree/master/0027-remove-element) |
 | [0033-search-in-rotated-sorted-array](https://github.com/haileykim2014/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0036-valid-sudoku](https://github.com/haileykim2014/leetcode/tree/master/0036-valid-sudoku) |
+| [0128-longest-consecutive-sequence](https://github.com/haileykim2014/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/haileykim2014/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/haileykim2014/leetcode/tree/master/0152-maximum-product-subarray) |
 | [0217-contains-duplicate](https://github.com/haileykim2014/leetcode/tree/master/0217-contains-duplicate) |
@@ -189,4 +191,8 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/haileykim2014/leetcode/tree/master/0002-add-two-numbers) |
 | [0143-reorder-list](https://github.com/haileykim2014/leetcode/tree/master/0143-reorder-list) |
+## Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/haileykim2014/leetcode/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
