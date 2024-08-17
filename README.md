@@ -164,6 +164,7 @@
 | [0002-add-two-numbers](https://github.com/haileykim2014/leetcode/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/haileykim2014/leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0143-reorder-list](https://github.com/haileykim2014/leetcode/tree/master/0143-reorder-list) |
+| [0206-reverse-linked-list](https://github.com/haileykim2014/leetcode/tree/master/0206-reverse-linked-list) |
 ## Stack
 |  |
 | ------- |
@@ -191,6 +192,7 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/haileykim2014/leetcode/tree/master/0002-add-two-numbers) |
 | [0143-reorder-list](https://github.com/haileykim2014/leetcode/tree/master/0143-reorder-list) |
+| [0206-reverse-linked-list](https://github.com/haileykim2014/leetcode/tree/master/0206-reverse-linked-list) |
 ## Union Find
 |  |
 | ------- |
