@@ -64,6 +64,7 @@
 | [0283-move-zeroes](https://github.com/haileykim2014/leetcode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/haileykim2014/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0647-palindromic-substrings](https://github.com/haileykim2014/leetcode/tree/master/0647-palindromic-substrings) |
+| [0908-middle-of-the-linked-list](https://github.com/haileykim2014/leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [0941-sort-array-by-parity](https://github.com/haileykim2014/leetcode/tree/master/0941-sort-array-by-parity) |
 ## Dynamic Programming
 |  |
@@ -165,6 +166,7 @@
 | [0019-remove-nth-node-from-end-of-list](https://github.com/haileykim2014/leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0143-reorder-list](https://github.com/haileykim2014/leetcode/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/haileykim2014/leetcode/tree/master/0206-reverse-linked-list) |
+| [0908-middle-of-the-linked-list](https://github.com/haileykim2014/leetcode/tree/master/0908-middle-of-the-linked-list) |
 ## Stack
 |  |
 | ------- |
