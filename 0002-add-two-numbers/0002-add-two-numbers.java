@@ -55,3 +55,4 @@ class Solution {
         return result.next;
     }
 }
+//Time, space : O(N)
