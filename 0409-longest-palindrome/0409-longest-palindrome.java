@@ -10,7 +10,7 @@ class Solution {
                 oddCount--;
         }
         if (oddCount > 1)
-            return s.length() - oddCount + 1;
+            return s.length() - oddCount + 1;//by using all odd characters but one character with an odd count
         return s.length();
     }
 }
