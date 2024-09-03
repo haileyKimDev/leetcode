@@ -31,6 +31,7 @@
 | [0409-longest-palindrome](https://github.com/haileykim2014/leetcode/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/haileykim2014/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0647-palindromic-substrings](https://github.com/haileykim2014/leetcode/tree/master/0647-palindromic-substrings) |
+| [0727-minimum-window-subsequence](https://github.com/haileykim2014/leetcode/tree/master/0727-minimum-window-subsequence) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -44,6 +45,7 @@
 | [0076-minimum-window-substring](https://github.com/haileykim2014/leetcode/tree/master/0076-minimum-window-substring) |
 | [0187-repeated-dna-sequences](https://github.com/haileykim2014/leetcode/tree/master/0187-repeated-dna-sequences) |
 | [0424-longest-repeating-character-replacement](https://github.com/haileykim2014/leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0727-minimum-window-subsequence](https://github.com/haileykim2014/leetcode/tree/master/0727-minimum-window-subsequence) |
 ## Rolling Hash
 |  |
 | ------- |
@@ -76,6 +78,7 @@
 | [0152-maximum-product-subarray](https://github.com/haileykim2014/leetcode/tree/master/0152-maximum-product-subarray) |
 | [0338-counting-bits](https://github.com/haileykim2014/leetcode/tree/master/0338-counting-bits) |
 | [0647-palindromic-substrings](https://github.com/haileykim2014/leetcode/tree/master/0647-palindromic-substrings) |
+| [0727-minimum-window-subsequence](https://github.com/haileykim2014/leetcode/tree/master/0727-minimum-window-subsequence) |
 ## Array
 |  |
 | ------- |
