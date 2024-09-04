@@ -30,3 +30,5 @@ class Solution {
         return Math.max(left, right) + 1;
     }
 }
+//Time :O(N)
+//Space :O(N)
