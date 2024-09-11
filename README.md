@@ -92,6 +92,7 @@
 | [0128-longest-consecutive-sequence](https://github.com/haileykim2014/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/haileykim2014/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/haileykim2014/leetcode/tree/master/0152-maximum-product-subarray) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/haileykim2014/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0217-contains-duplicate](https://github.com/haileykim2014/leetcode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/haileykim2014/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/haileykim2014/leetcode/tree/master/0283-move-zeroes) |
@@ -114,6 +115,7 @@
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/haileykim2014/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/haileykim2014/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0287-find-the-duplicate-number](https://github.com/haileykim2014/leetcode/tree/master/0287-find-the-duplicate-number) |
 ## Greedy
 |  |
