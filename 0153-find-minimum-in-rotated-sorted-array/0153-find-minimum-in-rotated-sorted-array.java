@@ -20,3 +20,5 @@ class Solution {
     return nums[left];
   }
 }
+//Time :O(LogN)
+//Space : O(1)
