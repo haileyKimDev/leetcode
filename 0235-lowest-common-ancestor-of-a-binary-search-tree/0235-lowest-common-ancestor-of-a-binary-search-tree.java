@@ -40,3 +40,5 @@ class Solution {
         return null;
     }
 }
+//Time : O(logN)
+//Space : O(1)
