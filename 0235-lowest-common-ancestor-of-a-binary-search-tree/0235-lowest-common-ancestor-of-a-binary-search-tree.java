@@ -10,15 +10,32 @@
 
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        int small = Math.min(p.val, q.val);
-        int large = Math.max(p.val, q.val);
-        while (root != null) {
-            if (root.val > large) // p, q belong to the left subtree
-                root = root.left;
-            else if (root.val < small) // p, q belong to the right subtree
-                root = root.right;
-            else // Now, small <= root.val <= large -> This root is the LCA between p and q
-                return root;
+
+        // Value of p
+        int pVal = p.val;
+
+        // Value of q;
+        int qVal = q.val;
+
+        // Start from the root node of the tree
+        TreeNode node = root;
+
+        // Traverse the tree
+        while (node != null) {
+
+            // Value of ancestor/parent node.
+            int parentVal = node.val;
+
+            if (pVal > parentVal && qVal > parentVal) {
+                // If both p and q are greater than parent
+                node = node.right;
+            } else if (pVal < parentVal && qVal < parentVal) {
+                // If both p and q are lesser than parent
+                node = node.left;
+            } else {
+                // We have found the split point, i.e. the LCA node.
+                return node;
+            }
         }
         return null;
     }
