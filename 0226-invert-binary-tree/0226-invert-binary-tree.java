@@ -14,11 +14,23 @@
  * }
  */
 class Solution {
-public TreeNode invertTree(TreeNode root) {
-        if (root == null) return null;
-        TreeNode tempRight = root.right;
-        root.right = invertTree(root.left);
-        root.left = invertTree(tempRight);
+    public TreeNode invertTree(TreeNode root) {
+        // base case
+        if(root != null){
+            //invert child tress
+            invertTree(root.left);
+            invertTree(root.right);
+
+            //swap
+            TreeNode temp = root.right;
+            root.right = root.left;
+            root.left = temp;
+        }
+
         return root;
     }
+
+    //n = number of nodes in the tree
+    //time : O(n)
+    //space : o(n)
 }
