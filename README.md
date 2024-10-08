@@ -160,6 +160,7 @@
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/haileykim2014/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/haileykim2014/leetcode/tree/master/0110-balanced-binary-tree) |
+| [0226-invert-binary-tree](https://github.com/haileykim2014/leetcode/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/haileykim2014/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0257-binary-tree-paths](https://github.com/haileykim2014/leetcode/tree/master/0257-binary-tree-paths) |
 ## Depth-First Search
@@ -167,6 +168,7 @@
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/haileykim2014/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/haileykim2014/leetcode/tree/master/0110-balanced-binary-tree) |
+| [0226-invert-binary-tree](https://github.com/haileykim2014/leetcode/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/haileykim2014/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0257-binary-tree-paths](https://github.com/haileykim2014/leetcode/tree/master/0257-binary-tree-paths) |
 ## Binary Tree
@@ -174,6 +176,7 @@
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/haileykim2014/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/haileykim2014/leetcode/tree/master/0110-balanced-binary-tree) |
+| [0226-invert-binary-tree](https://github.com/haileykim2014/leetcode/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/haileykim2014/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0257-binary-tree-paths](https://github.com/haileykim2014/leetcode/tree/master/0257-binary-tree-paths) |
 ## Linked List
@@ -221,4 +224,8 @@
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/haileykim2014/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/haileykim2014/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/haileykim2014/leetcode/tree/master/0226-invert-binary-tree) |
 <!---LeetCode Topics End-->
