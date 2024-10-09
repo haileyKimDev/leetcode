@@ -15,42 +15,23 @@
  */
 class Solution {
     public List<Integer> rightSideView(TreeNode root) {
-        if (root == null) return new ArrayList<Integer>();
+       List<Integer> result = new ArrayList();
+       Queue<TreeNode> queue = new LinkedList();
 
-        Queue<TreeNode> queue = new LinkedList() {
-            {
-                offer(root);
-                offer(null);
-            }
-        };
-        TreeNode prev, curr = root;
-        List<Integer> rightside = new ArrayList();
+       if(root == null)
+       return result;
 
-        while (!queue.isEmpty()) {
-            prev = curr;
-            curr = queue.poll();
+       queue.offer(root);
 
-            while (curr != null) {
-                // add child nodes in the queue
-                if (curr.left != null) {
-                    queue.offer(curr.left);
-                }
-                if (curr.right != null) {
-                    queue.offer(curr.right);
-                }
-
-                prev = curr;
-                curr = queue.poll();
-            }
-
-            // the current level is finished
-            // and prev is its rightmost element
-            rightside.add(prev.val);
-
-            // add a sentinel to mark the end
-            // of the next level
-            if (!queue.isEmpty()) queue.offer(null);
+       while(queue.size() != 0){
+        int size = queue.size();
+        for(int i = 0 ; i < size; i++){
+            TreeNode current = queue.poll();
+            if(i==0) result.add(current.val); //add right size val
+            if(current.right!=null) queue.offer(current.right);
+            if(current.left!=null) queue.offer(current.left); 
         }
-        return rightside;
+       }
+       return result;
     }
 }
